@@ -1,0 +1,120 @@
+a {
+    color: #f7fff7;
+}
+
+.dish {
+    padding-top: 77px;
+    // height: calc(100 vh - 64px);
+    // height: calc(var(--vh, 1vh)*100 -64px);
+}
+
+.dish__container {
+}
+
+.dish__info {
+    // width: calc(50% -32px);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.back-to-all-cities-link {
+    font-family: $fg;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F7FFF7;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    &:hover {
+        svg {
+            filter: drop-shadow(0 0 2px #ffffff);
+        }
+    }
+}
+
+.back-to-all-cities-link svg {
+    transition: filter .3s ease 0s;
+}
+
+.subtitle {
+    margin-top: 32px;
+    font-family: $fn;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 55px;
+}
+
+.dish__title {
+    margin-bottom: 32px;
+    font-size: 56px;
+    line-height: 64px;
+    font-family: $fn;
+    font-weight: 600;
+}
+
+.dish__text {
+    margin-bottom: 32px;
+    font-family: $fg;
+    font-size: 16px;
+    line-height: 19px;
+    max-width: 350px;
+}
+
+.cook_it_now_btn svg path {
+    fill: #f7fff7;
+}
+
+.cook_it_now_btn {
+    background-color: #eb93a0;
+    padding: 12px 16px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 32px;
+    box-shadow: 2px 2px 0 black;
+    border-radius: 12px;
+    transition: background-color 0.3s ease 0s;
+    font-family: $fg;
+    font-weight: 500;
+
+    &:hover {
+        background-color: lighten(#AC1C31, 10%);
+
+        svg {
+            transform: translateY(3px);
+        }
+    }
+}
+
+.cook_it_now_btn svg {
+    transition: transform 0.3s ease 0s;
+}
+
+.dish__media {
+    width: calc(50% -32px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.dish__media__circle {
+    position: absolute;
+    width: 420px;
+    height: 420px;
+    border-radius: 50%;
+    display: block;
+    border: 0.5px solid #F7FFF7;
+    z-index: -10;
+    opacity: 0.5;
+    &:nth-child(1) {
+        transform: translateY(-30%);
+    }
+
+}
+
+.dish__media__article {}
+
+.dish__img__wrapper {}

@@ -1,0 +1,473 @@
+@media (max-width: 768px) {
+    .get-started {
+        height: auto;
+        margin: 0 32px;
+    }
+
+    .main {
+        margin-top: 130px;
+    }
+
+    .get-started__container {
+        flex-wrap: wrap;
+        padding: 0;
+    }
+
+    .get-started__content {
+        flex: 1 1 100%;
+        text-align: center;
+    }
+
+    .block-text__title {
+        max-width: 400px;
+        margin: 0 auto;
+        padding: 32px;
+    }
+
+    .get-started__block-text {
+        max-width: 100%;
+    }
+
+    .media {
+        min-width: 100%;
+    }
+
+    .media__content {
+        height: 400px;
+    }
+
+    .slider__container {
+        padding: 0;
+    }
+
+    .slider__row {
+        flex-direction: column;
+        gap: 40px;
+        margin: 0 32px;
+        text-align: center;
+    }
+
+    .slider__body {
+        max-width: 100%;
+    }
+
+    .slider__link {
+        align-self: center;
+        margin-top: 40px;
+    }
+
+    .block-text__text {
+        margin: 0 0 40px 0;
+    }
+
+    .slider__cities {}
+
+    .slider__cities {
+        max-width: 100%;
+        padding: 0 5px;
+    }
+
+    .swiper-pagination {
+        display: none;
+    }
+
+    .ukraine-map-wrapper {
+        padding: 0;
+        margin: 0 16px;
+
+        svg {
+            max-width: 100%;
+        }
+    }
+
+    .pg__title {
+        margin-bottom: 48px;
+    }
+
+    .cities__pg__floating-images {
+        gap: 24px;
+    }
+
+    .cards {
+        margin-top: 64px;
+    }
+
+    .cities__pg__container {
+        padding: 0;
+        margin: 0 32px;
+    }
+
+    .header__container {
+        padding: 0;
+        margin: 0 32px;
+    }
+
+    .cards__body {
+        margin-bottom: 48px;
+    }
+
+    .cards__row .cards__column {
+        columns: 2;
+        gap: 16px;
+    }
+
+    .cards__container {
+        padding: 0 32px;
+    }
+
+    .about {
+        padding: 0px 0;
+    }
+
+    .about__container {
+        padding: 0 32px;
+        grid-template-columns: 1fr;
+        gap: 32px;
+    }
+
+    .about_title_wrapper {
+        text-align: center;
+        align-items: center;
+    }
+
+    .about_title__img {
+        display: none;
+    }
+
+    .about__social {
+        display: none;
+    }
+
+    .about__container {
+        gap: 48px;
+    }
+
+    .dish__container {
+        flex-wrap: wrap;
+    }
+
+    .dish__info {
+        flex: 1 1 100%;
+        align-items: center;
+    }
+
+    .dish__media {
+        flex: 1 1 100%;
+    }
+
+    .dish {
+        padding-top: 0;
+    }
+
+    .back-to-all-cities-link {
+        align-self: start;
+    }
+
+    .dish__container {
+        padding: 0 32px;
+    }
+
+    .recipe__container {
+        padding: 0 32px;
+    }
+
+    .dish__img__wrapper img {
+        max-width: 400px;
+        max-height: 300px;
+    }
+
+    .dish__media__circle {
+        width: 300px;
+        height: 300px;
+
+        &:nth-child(1) {
+            transform: translateY(-20%);
+        }
+
+        &:nth-child(2) {
+            transform: translateY(-10%)
+        }
+    }
+
+    .dish__media__articles {
+        gap: 15px;
+    }
+
+    .dish__media {
+        margin-top: 30px;
+    }
+
+    .recipe__columns {
+        grid-template-columns: 1fr;
+        gap: 48px;
+    }
+
+    .additional-information {
+        order: 1;
+    }
+
+    .instructions {
+        order: 2;
+    }
+
+    .additional-information {
+        gap: 24px;
+    }
+}
+
+@media (max-width: 576px) {
+    .header {
+        height: 56px;
+    }
+
+    .header__social__links {
+        display: none;
+    }
+
+    .header__logo {
+        font-size: 18px;
+    }
+
+    .header_links {
+        gap: 24px;
+    }
+
+    .main {
+        margin-top: 120px;
+    }
+
+    .slider {
+        margin: 48px 0;
+    }
+
+    .stats {
+        padding: 10px 0;
+    }
+
+    .map {
+        padding: 48px 0;
+    }
+
+    .block-text__title {
+        padding-bottom: 24px;
+
+        span {
+            font-size: 40px;
+            line-height: 48px;
+        }
+
+        font-size: 28px;
+    }
+
+    .block-text__text {
+        margin: 24px;
+    }
+
+    .get-started__container {
+        gap: 48px;
+    }
+
+    .media__button {
+        margin-top: 24px;
+    }
+
+    .get-started__container {}
+
+    .media__content {
+        height: auto;
+    }
+
+    .slider__title {
+        font-size: 20px;
+    }
+
+    .slider__subtitle {
+        font-size: 14px;
+    }
+
+    .stats__items {
+        flex-wrap: wrap;
+        gap: 24px;
+
+        .stats__item {
+            width: 100%;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            align-items: center;
+        }
+
+        .stats__item__icon {
+            justify-self: end;
+            width: 48px;
+            height: 48px;
+
+            img {
+                width: 24px;
+                height: 24px;
+            }
+        }
+
+        .stats__title {
+            font-size: 20px;
+            line-height: 20px;
+        }
+
+        .stats__text {
+            font-size: 14px;
+        }
+    }
+
+    .map_body__title {
+        font-size: 20px;
+    }
+
+    .map_body__subtitle {
+        font-size: 14px;
+    }
+
+    .modal {
+        width: 95%;
+        padding: 16px;
+    }
+
+    .modal-image {
+        margin-bottom: 24px;
+    }
+
+    .modal-title {
+        font-size: 20px;
+    }
+
+    .footer__links {
+        margin-bottom: 24px;
+    }
+
+    .footer__text {
+        font-size: 14px;
+    }
+
+    .footer {
+        padding-top: 32px;
+    }
+
+    .pg__title {
+        margin-bottom: 24px;
+        font-size: 28px;
+    }
+
+    .floating-image {
+        &:nth-child(3) {
+            display: none;
+        }
+
+        &:nth-child(4) {
+            display: none;
+        }
+    }
+
+    .cities__pg__floating-images {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 16px;
+    }
+
+    .cards__title {
+        font-size: 20px;
+    }
+
+    .cards__text {
+        font-size: 14px;
+    }
+
+    .cards__row .cards__column {
+        columns: 1;
+        gap: 16px;
+    }
+
+    .cards__body {
+        margin-bottom: 24px;
+        text-align: center;
+    }
+
+    .card__discr__title {
+        font-size: 16px;
+    }
+
+    .card__discr {
+        padding: 0 0 16px 12px;
+    }
+
+    .about_title {
+        font-size: 28px;
+    }
+
+    .about_title_subtitle {
+        font-size: 20px;
+        margin-top: 0;
+    }
+
+    .about__container {
+        gap: 24px;
+    }
+
+    .about__description__row {
+        flex-wrap: wrap;
+    }
+
+    .about__description__column {
+        width: 100%;
+    }
+
+    .about__description__column {
+        width: 100%;
+    }
+
+    .about__author__pic {
+        margin-top: 24px;
+    }
+
+    .subtitle {
+        font-size: 20px;
+    }
+
+    .dish__title {
+        font-size: 40px;
+        margin-bottom: 16px;
+    }
+
+    .dish__info {
+        text-align: center;
+    }
+
+    .dish__media__articles {
+        display: none;
+    }
+
+    .dish__container {
+        padding: 0;
+    }
+    .dish__info{
+        padding: 0 32px;
+    }
+    .dish__img__wrapper img {
+        max-width: 100%;
+    }
+    .cooking-time__title{
+        font-size: 20px;
+    }
+    .ingredients-list{
+        gap: 4px;
+    }
+    .additional-information{
+        gap: 24px;
+    }
+}
+
+@media (max-width: 320px){
+    .header_links {
+        gap: 10px;
+    }
+    .additional-information{
+        margin-top: 30px;
+    }
+}
