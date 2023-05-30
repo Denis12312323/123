@@ -1374,3 +1374,10 @@ a {
 @import "components/modal.sass";
 
 @import "_grid.scss";
+
+
+@media (max-width: 900px) {
+    .dish {
+        height: 55rem;
+    }
+}
