@@ -1,4 +1,4 @@
-@media (max-width: 1000px) {
+@media (max-width: 900px) {
     .get-started {
         height: auto;
         margin: 0 32px;
@@ -213,6 +213,9 @@
     .additional-information {
         gap: 24px;
     }
+    .additional-information{
+        margin-top:450px;
+    } 
 }
 
 @media (max-width: 576px) {
