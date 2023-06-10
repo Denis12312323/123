@@ -117,7 +117,7 @@ if (regionPaths) {
             modalText.innerHTML = regionPath.getAttribute("data-modal-text");
 
             modalGoToButton.innerHTML = "Go to " + regionPath.getAttribute("data-region-title") + goToButtonArrow;
-            modalGoToButton.href = "regions/" + regionPath.getAttribute("data-region-title").toLowerCase() + ".html";
+            modalGoToButton.href = "regions/" + regionPath.getAttribute("data-region-title") + ".html";
 
             document.body.style.overflow = "hidden";
             modalOverlay.classList.add("active");
