@@ -35,7 +35,6 @@ li {
 
 html,
 body {
-    // height: 100%;
     width: 100%;
     font-size: 100%;
     line-height: 1;
@@ -101,7 +100,6 @@ $md4: 479.98px;
 
 // общие стили 
 body {
-    // height: 100%;
     background-color: #1a191c;
     color: #F7FFF7;
     position: relative;
@@ -158,14 +156,6 @@ a {
     }
 }
 
-// a.red {
-//     color: #ff6b6b;
-//     transition: color 0.3s ease 0s;
-
-//     &:hover {
-//         color: #F7EBEC;
-//     }
-// }
 
 .header_links {
     display: flex;
@@ -367,7 +357,6 @@ a {
     margin: 64px 0;
 }
 
-.slider__container {}
 
 .slider__row {
     display: flex;
@@ -382,7 +371,6 @@ a {
     flex-direction: column;
     max-width: 424px;
     color: #F7FFF7;
-    // margin: 0 64px 0 0;
 }
 
 .slider__title {
@@ -421,15 +409,12 @@ a {
     flex: 0 1 66.66%;
     display: flex;
     flex-direction: column;
-    // align-items: flex-start;
 }
 
 // 
 .slider__cities {
     max-width: 822px;
 }
-
-.swiper {}
 
 .slider__cities__nav {
     display: flex;
@@ -484,28 +469,12 @@ a {
 .swiper__items {
     display: flex;
     justify-content: space-between;
-    // gap: 16px;
 }
 
 .swiper-wrapper {
     height: auto;
 }
 
-// .swiper__item {
-//     flex: 0 1 25%;
-//     display: flex;
-//     flex-direction: column;
-//     align-items: center;
-//     padding: 16px 12px 0;
-//     background-color: #ffe66d;
-//     text-align: center;
-//     border-radius: 12px;
-//     box-shadow: 2px 2px 0px #000000;
-//     transition: background-color 0.3s ease 0s;
-//     &:hover{
-//         background-color: lighten(#ffe66d, 15%);
-//     }
-// }
 .swiper-slide {
     width: calc(100% / 5);
     display: flex;
@@ -566,7 +535,6 @@ a {
     padding: 64px 0;
 }
 
-.stats__container {}
 
 .stats__items {
     display: flex;
@@ -674,7 +642,6 @@ a {
 
 //.......footer...........................
 .footer {
-    // height: 167px;
     padding: 64px 0 32px 0;
 }
 
@@ -780,7 +747,6 @@ a {
     margin: 128px 0 0 0;
 }
 
-.cards__container {}
 
 .cards__body {
     display: flex;
@@ -804,14 +770,6 @@ a {
     line-height: 22px;
 }
 
-.cards__row {}
-
-.cards__column {
-    // display: grid;
-    // grid-template-columns: repeat(5, 1fr);
-    // grid-template-rows: masonry;
-    // gap: 32px;
-}
 
 .cards__row .cards__column {
     columns: 3;
@@ -872,7 +830,7 @@ a {
     line-height: 17px;
 }
 
-//Плавающие изображения 
+//floating images
 .cities__pg__floating-images {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -975,7 +933,6 @@ a {
     transform: translateY(-56px) rotate(-15deg);
 }
 
-.about_img_wrapper {}
 
 .about_img {
     width: 100%;
@@ -1032,7 +989,6 @@ a {
     transition: transform 0.3s ease 0s;
 }
 
-.about__description {}
 
 .about__description__row {
     display: flex;
@@ -1085,7 +1041,6 @@ a {
     justify-content: space-between;
 }
 
-.about__author__body {}
 
 .about__author__text {
     font-family: $fg;
@@ -1279,15 +1234,12 @@ a {
 }
 
 // ////////////////////////////////////////////////////////////
-.recipe__container {}
 
 .recipe__columns {
     display: grid;
     grid-template-columns: 2fr 1fr;
     gap: 64px;
 }
-
-.instructions {}
 
 .recipe__title {
     font-family: $fn;
@@ -1325,7 +1277,6 @@ a {
     gap: 32px;
 }
 
-.cooking-time {}
 
 .cooking-time__title {
     font-family: $fn;
@@ -1343,7 +1294,6 @@ a {
     line-height: 19px;
 }
 
-.ingredients {}
 
 .ingredients__title {
     font-family: $fn;
